@@ -1,6 +1,6 @@
 # Sorting Visualizer
 
-[Link](https://sorting-visualizer-henna-one.vercel.app/)
+[Link](https://sorting-visualizer.matteodevenuto.com)
 
 This project is a **Sorting Algorithm Visualizer** built using **Next.js** and **Tailwind CSS**, which allows users to visualize different sorting algorithms with smooth animations and customizable speed.
 
