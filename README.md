@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sorting Visualizer
 
-## Getting Started
+This project is a **Sorting Algorithm Visualizer** built using **React** and **Tailwind CSS**, which allows users to visualize different sorting algorithms with smooth animations and customizable speed. The project is based on the work of [TechPrep](https://www.youtube.com/watch?v=3ZmHjo_BfGw) from his Sorting Algorithm Visualizer Tutorial.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Visualize Sorting Algorithms**: A variety of sorting algorithms are included, allowing you to see how they work step by step.
+- **Customizable Animation Speed**: Adjust the speed of the sorting animation in real-time.
+- **Responsive Design**: The app adapts to different screen sizes.
+- **Pulse Animation**: After sorting is complete, the bars pulse to indicate that the sorting process has ended.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Sorting Algorithms
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The following algorithms are implemented in the visualizer:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Bubble Sort**: A simple comparison-based algorithm where each pair of adjacent elements is compared and swapped if necessary.
+- **Selection Sort**: This algorithm divides the array into a sorted and an unsorted region, iteratively selecting the smallest element from the unsorted region and moving it to the sorted region.
 
-## Learn More
+- **Insertion Sort**: Builds the sorted array one element at a time by repeatedly taking the next unsorted element and inserting it into the correct position in the sorted portion.
 
-To learn more about Next.js, take a look at the following resources:
+- **Merge Sort**: A divide-and-conquer algorithm that splits the array into smaller sub-arrays, recursively sorts them, and then merges them back together.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Quick Sort**: Another divide-and-conquer algorithm, Quick Sort selects a 'pivot' and partitions the array such that all elements less than the pivot come before it, and all greater elements come after it.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## How to Use
 
-## Deploy on Vercel
+1. **Choose an Algorithm**: Select a sorting algorithm from the options available in the control panel.
+2. **Generate a New Array**: You can reset and generate a new array of random numbers by resizing the window or refreshing the page.
+3. **Start the Sorting Animation**: Click the start button to see the algorithm in action. The bars will animate to reflect the sorting process.
+4. **Adjust Animation Speed**: Use the slider to change how fast or slow the sorting animation occurs.
+5. **Enjoy the Visualization**: Once sorting is complete, the bars will pulse to indicate that the sorting is done.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Acknowledgements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is based on the Sorting Algorithm Visualizer by [TechPrep](https://www.youtube.com/watch?v=3ZmHjo_BfGw), which served as a guide and inspiration for building the visualizer.
