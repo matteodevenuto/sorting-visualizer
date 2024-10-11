@@ -1,6 +1,6 @@
 # Sorting Visualizer
 
-This project is a **Sorting Algorithm Visualizer** built using **React** and **Tailwind CSS**, which allows users to visualize different sorting algorithms with smooth animations and customizable speed. The project is based on the work of [TechPrep](https://www.youtube.com/watch?v=3ZmHjo_BfGw) from his Sorting Algorithm Visualizer Tutorial.
+This project is a **Sorting Algorithm Visualizer** built using **Next.js** and **Tailwind CSS**, which allows users to visualize different sorting algorithms with smooth animations and customizable speed. The project is based on the work of [TechPrep](https://www.youtube.com/watch?v=3ZmHjo_BfGw) from his Sorting Algorithm Visualizer Tutorial.
 
 ## Features
 
