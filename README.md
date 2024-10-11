@@ -1,4 +1,5 @@
 # Sorting Visualizer
+![image](https://github.com/user-attachments/assets/1572f35d-19f4-465a-a5f2-c56ce3542135)
 
 [Link](https://sorting-visualizer.matteodevenuto.com)
 
